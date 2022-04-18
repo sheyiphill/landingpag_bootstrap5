@@ -4,7 +4,7 @@
   "description": "Bootstrap5",
   "main": "index.js",
   "scripts": {
-    "compile:sass":"sass --watch scss:assets/css"
+    "compile:sass": "sass --watch scss:assets/css"
   },
   "keywords": [
     "bootstrap",
@@ -17,6 +17,7 @@
     "sass": "^1.50.0"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.1",
     "@fortawesome/free-regular-svg-icons": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "autoprefixer": "^10.4.4",
